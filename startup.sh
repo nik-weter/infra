@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get update&&apt-get install git
+sudo apt-get update&&sudo apt-get install git
 #mkdir infra&&cd infra
 git clone https://github.com/nik-weter/infra.git
 cd infra
