@@ -1,4 +1,6 @@
 #!/bin/bash
 git clone https://github.com/Artemmkin/reddit.git
-cd reddit && bundle install
+cd reddit
+source ~/.rvm/scripts/rvm
+bundle install
 puma -d
