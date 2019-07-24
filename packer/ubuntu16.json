@@ -2,7 +2,7 @@
   "builders": [
     {
     "type": "googlecompute",
-    "project_id": "tactile-depot-232114",
+    "project_id": "infra-233514",
     "image_name": "reddit-base-{{timestamp}}",
     "source_image": "ubuntu-1604-xenial-v20190212",
     "zone": "europe-west1-b",
