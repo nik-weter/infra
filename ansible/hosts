@@ -1,2 +1,10 @@
-[test]
-34.77.40.255
+#[test]
+#34.77.40.255
+[app]
+34.76.194.40
+[db]
+34.76.194.40 
+#[app]
+#appserver ansible_ssh_host=34.77.40.255
+#[db]
+#dbserver ansible_ssh_host=34.77.20.209
